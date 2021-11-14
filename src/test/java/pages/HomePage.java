@@ -35,7 +35,7 @@ public class HomePage {
 	@FindBy(xpath = "//label[@class='radio ng-scope ng-binding'][1]")
 	public WebElement customerCompanyAAACheckBox;
 
-	@FindBy(xpath = "//label[@class='radio ng-scope ng-binding'][1]")
+	@FindBy(xpath = "//label[@class='radio ng-scope ng-binding'][2]")
 	public WebElement customerCompanyBBBCheckBox;
 
 	@FindBy(xpath = "//select[@name='RoleId']")
