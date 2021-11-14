@@ -33,20 +33,20 @@ public class Create_delete_user_steps {
 	public void i_add_new_user_with_following_details(DataTable dataTable) {
 		
 	    hp.addUserBtn.click();
-	    bu.waitUntilElementVisible(hp.firstNamefild);
+	    bu.waitUntilElementVisible(hp.firstNamefield);
 	    
 	    //converting dataTable into a list
 	    List<String> list = dataTable.asList();
 	    userName = list.get(2);
 	    firstName = list.get(0);
 	    lastName = list.get(1);
-	    hp.firstNamefild.sendKeys(firstName);
-	    hp.lastNameFild.sendKeys(lastName);
-	    hp.userNameFild.sendKeys(list.get(2));
+	    hp.firstNamefield.sendKeys(firstName);
+	    hp.lastNameField.sendKeys(lastName);
+	    hp.userNameField.sendKeys(list.get(2));
 	    hp.password.sendKeys(list.get(3));
 	    bu.selectByVisibleText(hp.roleDropDown, list.get(4));
-	    hp.EmailFild.sendKeys(list.get(5));
-	    hp.cellPhoneFild.sendKeys(list.get(6));
+	    hp.EmailField.sendKeys(list.get(5));
+	    hp.cellPhoneField.sendKeys(list.get(6));
 	}
 	
 	@When("I click on Save button")
