@@ -32,10 +32,10 @@ public class HomePage {
 	@FindBy(xpath = "//input[@name='Password']")
 	public WebElement password;
 
-	@FindBy(xpath = "//label[@class=\"radio ng-scope ng-binding\"][1]/input")
+	@FindBy(xpath = "//label[@class="radio ng-scope ng-binding"][1]/input")
 	public WebElement customerCompanyAAACheckBox;
 
-	@FindBy(xpath = "//label[@class=\"radio ng-scope ng-binding\"][2]/input")
+	@FindBy(xpath = "//label[@class="radio ng-scope ng-binding"][2]/input")
 	public WebElement customerCompanyBBBCheckBox;
 
 	@FindBy(xpath = "//select[@name='RoleId']")
