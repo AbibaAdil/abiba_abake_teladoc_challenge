@@ -21,13 +21,13 @@ public class HomePage {
 	public WebElement addUserText;
 
 	@FindBy(xpath = "//input[@name='FirstName']")
-	public WebElement firstNamefild;
+	public WebElement firstNamefield;
 
 	@FindBy(xpath = "//input[@name='LastName']")
-	public WebElement lastNameFild;
+	public WebElement lastNameField;
 
 	@FindBy(xpath = "//input[@name='UserName']")
-	public WebElement userNameFild;
+	public WebElement userNameField;
 
 	@FindBy(xpath = "//input[@name='Password']")
 	public WebElement password;
@@ -42,10 +42,10 @@ public class HomePage {
 	public WebElement roleDropDown;
 
 	@FindBy(xpath = "//input[@name='Email']")
-	public WebElement EmailFild;
+	public WebElement EmailField;
 
 	@FindBy(xpath = "//input[@name='Mobilephone']")
-	public WebElement cellPhoneFild;
+	public WebElement cellPhoneField;
 
 	@FindBy(xpath = "//button[@class='btn btn-success']")
 	public WebElement saveBtn;
